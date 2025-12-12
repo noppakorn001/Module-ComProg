@@ -13,7 +13,7 @@ int main() {
 
     if (hours < 0 || hours > 24) {
         cout << "Invalid hours" << endl;
-        return 0;
+        return 1;
     }
 
     double totalWage;
