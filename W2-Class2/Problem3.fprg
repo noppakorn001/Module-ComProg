@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Problem3"/>
+        <attribute name="authors" value="noppa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-11 09:13:47 PM"/>
+        <attribute name="created" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMTE7MDg6NTg6MTEgUE07MjUxOQ=="/>
+        <attribute name="edited" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMTE7MDk6MTM6NDcgUE07MjsyNjI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="time, wage" type="Real" array="False" size=""/>
+            <input variable="time"/>
+            <if expression="time &gt; 0">
+                <then>
+                    <if expression="time &lt; 24">
+                        <then>
+                            <if expression="time&gt;6">
+                                <then>
+                                    <assign variable="wage" expression="600+(200*(time-6))"/>
+                                </then>
+                                <else>
+                                    <assign variable="wage" expression="100*time"/>
+                                </else>
+                            </if>
+                            <output expression="wage &amp; &quot;Bath&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Invalid&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Invalid&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

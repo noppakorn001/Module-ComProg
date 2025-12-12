@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="problem2"/>
+        <attribute name="authors" value="noppa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-11 08:58:10 PM"/>
+        <attribute name="created" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMTE7MDg6NTE6MDMgUE07MjUxMw=="/>
+        <attribute name="edited" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMTE7MDg6NTg6MTAgUE07MTsyNjI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y" type="Real" array="False" size=""/>
+            <assign variable="x" expression="12.5"/>
+            <input variable="y"/>
+            <if expression="y&gt;=0.0">
+                <then>
+                    <assign variable="x" expression="5*y"/>
+                </then>
+                <else>
+                    <assign variable="x" expression="2*y"/>
+                </else>
+            </if>
+            <output expression="x" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
