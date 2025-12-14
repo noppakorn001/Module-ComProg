@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Avaerage-Flowchart"/>
+        <attribute name="authors" value="noppa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-12 11:05:36 AM"/>
+        <attribute name="created" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMTI7MTA6NDY6MzMgQU07MjQ5OQ=="/>
+        <attribute name="edited" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMTI7MTE6MDU6MzYgQU07MTsyNjA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="count, number, sum, average" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <for variable="count" start="1" end="5" direction="inc" step="1">
+                <input variable="number"/>
+                <assign variable="sum" expression="sum + number"/>
+            </for>
+            <assign variable="average" expression="sum / 5"/>
+            <output expression="&quot;Average is&quot; &amp; average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
