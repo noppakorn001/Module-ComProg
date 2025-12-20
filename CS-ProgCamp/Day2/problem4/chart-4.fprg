@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="chart-4"/>
+        <attribute name="authors" value="noppa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-20 01:24:17 PM"/>
+        <attribute name="created" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6MTg6MTMgUE07MjUxMA=="/>
+        <attribute name="edited" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6MjQ6MTcgUE07MTsyNjE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, sum" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <while expression="n != 0">
+                <assign variable="sum" expression="n+n"/>
+                <input variable="n"/>
+            </while>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

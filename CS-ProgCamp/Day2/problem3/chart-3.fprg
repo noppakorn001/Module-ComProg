@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="chart-3"/>
+        <attribute name="authors" value="noppa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-20 01:17:42 PM"/>
+        <attribute name="created" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6MTA6NDYgUE07MjUwOA=="/>
+        <attribute name="edited" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6MTc6NDIgUE07MTsyNjE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, x" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="12" direction="inc" step="1">
+                <assign variable="x" expression="n*i"/>
+                <output expression="x" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

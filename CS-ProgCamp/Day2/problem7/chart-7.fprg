@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="chart-7"/>
+        <attribute name="authors" value="noppa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-20 01:38:26 PM"/>
+        <attribute name="created" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6MzM6MjMgUE07MjUwOA=="/>
+        <attribute name="edited" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6Mzg6MjYgUE07MTsyNjI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="w, h, bmi" type="Real" array="False" size=""/>
+            <input variable="w"/>
+            <input variable="h"/>
+            <assign variable="bmi" expression="w / (h*h)"/>
+            <if expression="bmi&lt;18.5">
+                <then>
+                    <output expression="&quot;Underweight&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="bmi&lt;23">
+                        <then>
+                            <output expression="&quot;Normal&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="bmi&lt;25">
+                                <then>
+                                    <output expression="&quot;Overweight&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="Obese" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

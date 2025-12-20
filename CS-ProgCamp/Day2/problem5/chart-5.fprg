@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="chart-5"/>
+        <attribute name="authors" value="noppa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-20 01:30:09 PM"/>
+        <attribute name="created" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6MjQ6MjAgUE07MjUwNQ=="/>
+        <attribute name="edited" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6MzA6MDkgUE07MTsyNjE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, x" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="i"/>
+            <while expression="x != i">
+                <input variable="i"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

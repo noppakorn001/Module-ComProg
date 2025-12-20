@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="chart-6"/>
+        <attribute name="authors" value="noppa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-20 01:33:20 PM"/>
+        <attribute name="created" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6MzA6MTIgUE07MjUwMw=="/>
+        <attribute name="edited" value="bm9wcGE7Tk9QUEFLT1JOOzIwMjUtMTItMjA7MDE6MzM6MjAgUE07MTsyNjEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c, f, k" type="Real" array="False" size=""/>
+            <input variable="c"/>
+            <assign variable="f" expression="( c / 5 * 9 ) +32"/>
+            <assign variable="k" expression="c + 273.15"/>
+            <output expression="f" newline="True"/>
+            <output expression="k" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
