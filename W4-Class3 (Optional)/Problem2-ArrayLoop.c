@@ -1,12 +1,4 @@
 // 6810210158 Noppakorn Wunnoy
-/*
-In this problem, we want to write a better_array function that takes arrays A1 and A2 containing N integers, where A1, A2, and N are the inputs passed as parameters to the function.
-If sum of number in A1 is greater than sum of number in A2, return 1
-If sum of number in A1 is less than sum of number in A2, return 2
-If sum of number in A1 is equal to sum of number in A2, return 0 (BetterArray)
-*/
-
-// use random number 0-100 for fill in array
 
 #include <stdio.h>
 #include <math.h>
