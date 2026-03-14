@@ -25,7 +25,7 @@ int main() {
   while (left <= right) {
     int mid = left + (right - left) / 2;
     if (num[mid] == target) {
-      address = mid;
+      address = mid;  
       break;
     } else if (num[mid] < target) {
       left = mid + 1;
