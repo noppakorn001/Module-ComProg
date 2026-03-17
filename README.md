@@ -1,6 +1,6 @@
 # Programming Concepts and Algorithms (Module-ProgCon)
 
-This repository contains the coursework, laboratory exercises, projects, and examination preparations for the **Programming Concepts and Algorithms** module at the Department of Computer Science, Prince of Songkla University (CS-PSU). 
+This repository contains the coursework, laboratory exercises, projects, and examination preparations for the **Programming Concepts and Algorithms** module at the Department of Computer Science, Prince of Songkla University (CS-PSU).
 
 The curriculum is structured to guide students from foundational C++ programming and basic problem-solving to advanced data structures and algorithm design. The repository is primarily categorized into two main sections: **Midterm** and **Final**.
 
@@ -9,6 +9,7 @@ The curriculum is structured to guide students from foundational C++ programming
 ## 📂 Repository Structure & Course Topics
 
 ### 1. Midterm: Foundational Programming & Basic Data Structures
+
 This section covers the introductory phase of the course, focusing on C++ syntax, memory allocation, and elementary data structures.
 
 * **`CS-ProgCamp/`**
@@ -23,6 +24,7 @@ This section covers the introductory phase of the course, focusing on C++ syntax
   * Introduction to Abstract Data Types (ADT). Focuses on the implementation, mechanics, and practical applications of **Stacks** and **Queues**.
 
 ### 2. Final: Advanced Algorithms & Complex Data Structures
+
 This section transitions into algorithmic analysis, advanced problem-solving techniques, and efficient data processing methodologies.
 
 * **`Week11-1/`**
