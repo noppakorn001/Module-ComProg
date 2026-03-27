@@ -27,18 +27,18 @@ This section covers the introductory phase of the course, focusing on C++ syntax
 
 This section transitions into algorithmic analysis, advanced problem-solving techniques, and efficient data processing methodologies.
 
+* **`Module-Lecture/`**
+  * Centralized lecture resources for the final part of the course, including topic-based PDF slides/exercises (Algorithm Analysis, Sorting, Divide & Conquer, Dynamic Programming, Greedy, String Matching) and **`Pesudo_Code/`** C++ reference implementations.
 * **`Week11-1/`**
-  * **Algorithm Analysis:** Introduction to measuring algorithm efficiency, empirical execution capabilities, and benchmarking using C++ timers.
+  * **Algorithm Analysis:** Practical timing and performance comparison exercises with C++ programs (e.g., `Timer.cpp`, `lab1A.cpp`) and supporting Python scripts (`austin.py`, `graph.py`).
 * **`Week12-1/` & `Week12-3/`**
-  * **Sorting Algorithms:** Implementation and analysis of various sorting mechanisms, emphasizing algorithmic efficiency and logic optimizations.
+  * **Sorting Algorithms:** Lab-focused sorting practice with implementation files (e.g., `Lab2-Algorithm.cpp`) and assignment sheets.
 * **`Week13-1/` & `Week13-3/`**
-  * **Dynamic Programming & Graph Theory:** Advanced problem-solving strategies utilizing Dynamic Programming (covering topics like the Knapsack Problem and Fibonacci sequence optimizations) and Graph routing algorithms (All-Pairs Shortest Path).
+  * **Dynamic Programming & Graph Theory:** Fibonacci and Knapsack implementations with graph routing practice via All-Pairs Shortest Path.
 * **`Week14-3/`**
   * **Greedy Algorithms:** Exploring optimization problems where local maximum approaches lead to global solutions. Includes implementations of Activity Selection, Coin Change, and the Fractional Knapsack problem.
 * **`Week15-1/`**
-  * **Binary Search Trees (BST) & Specialized Problems:** Designing and navigating Binary Search Trees (insertion, loop searching, finding maximums). Contains advanced logical operations like character frequency analysis and complex problem scenarios.
-* **`ProgrammingTest/`**
-  * Comprehensive practical programming tests and implementation exercises designed to evaluate proficiency in data structures (Queues, Stacks, Vectors) and algorithmic problem resolution.
+  * **Binary Search Trees (BST) & Specialized Problems:** BST loop and maximum exercises, plus character frequency and applied problem-solving tasks, including extra practice in `Unterstanding/`.
 
 ---
 
